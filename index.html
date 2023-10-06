@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Viajes</title>
+</head>
+<body>
+  <!-- Header -->
+  <header class="navegacion">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Viajes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- NAV -->
+          <div class="collapse navbar-collapse menu-conteiner" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <!-- Paquete -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Paquetes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="pages/europa.html">Europa</a></li>
+                  <li><a class="dropdown-item" href="pages/asia.html">Asia</a></li>
+                  <li><a class="dropdown-item" href="pages/caribe.html">Caribe</a></li>
+                </ul>
+              </li>
+              <!-- Fin de paquete -->
+              <li class="nav-item">
+                <a class="nav-link active" href="pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="pages/quiensomos.html">Quienes somos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+  </header>
+  <!-- Fin Header -->
+  <section class="container-fluid d-flex justify-content-center align-items-center pack row">
+    <!-- Europa -->
+    <div class="card cards col-12" style="width: 30rem;">
+      <img src="img/europa.jpg" class="card-img-top" alt="big ben">
+      <div class="card-body">
+        <h2 class="card-title">Europa</h2>
+        <p class="card-text">Viaja con este pack por toda Europa, disfrutando de los lugares mas bellos que ofrece este continente</p>
+        <a href="pages/europa.html" class="btn boton">Ver mas detalles</a>
+      </div>
+    </div>
+    <!-- Fin Europa -->
+    <!-- Asia -->
+    <div class="card cards col-12" style="width: 30rem;">
+      <img src="img/asia.jpg" class="card-img-top" alt="foto paisaje asia">
+      <div class="card-body">
+        <h2 class="card-title">Asia</h2>
+        <p class="card-text">Viaja con este pack por toda Asia, disfrutando de los lugares mas bellos que ofrece este continente</p>
+        <a href="pages/asia.html" class="btn boton">Ver mas detalles</a>
+      </div>
+    </div>
+    <!-- Fin Asia -->
+    <!-- Caribe -->
+    <div class="card cards col-12" style="width: 30rem;">
+      <img src="img/caribe.jpg" class="card-img-top" alt="playa caribe">
+      <div class="card-body">
+        <h2 class="card-title">Caribe</h2>
+        <p class="card-text">Viaja con este pack por todo el caribe, disfrutando de los lugares mas bellos que ofrece este continente</p>
+        <a href="pages/caribe.html" class="btn boton">Ver mas detalles</a>
+      </div>
+    </div>
+    <!-- Fin Caribe -->
+  </section>
+  <!-- Viajes en TENDENCIA -->
+  <section class="container-fluid section-tendencia">
+    <h2 class="d-flex justify-content-center text-tendencia">VIAJES EN <span id="text-celeste">TENDENCIA</span></h2>
+    <div class="d-flex row justify-content-center">
+      <!-- NEW YORK -->
+      <div class="card cards col-12" style="width: 15rem;">
+        <img src="img/tendencia (1).jpg" class="card-img-top img-tendencia" alt="estatua libertad">
+        <div class="card-body">
+          <h2 class="card-title">NEW YORK</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="card-text precio">500 USD</p>
+          <a href="pages/newyork.html" class="btn boton">Detalles</a>
+        </div>
+      </div>
+      <!-- CHINA -->
+      <div class="card cards col-12" style="width: 15rem;">
+        <img src="img/tendencia (2).jpg" class="card-img-top img-tendencia" alt="muralla china">
+        <div class="card-body">
+          <h2 class="card-title">CHINA</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="card-text precio">1000 USD</p>
+          <a href="pages/china.html" class="btn boton">Detalles</a>
+        </div>
+      </div>
+      <!-- FRANCIA -->
+      <div class="card cards col-12" style="width: 15rem;">
+        <img src="img/tendencia (3).jpg" class="card-img-top img-tendencia" alt="torre eiffel">
+        <div class="card-body">
+          <h2 class="card-title">FRANCIA</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="card-text precio">800 USD</p>
+          <a href="pages/francia.html" class="btn boton">Detalles</a>
+        </div>
+      </div>
+      <!-- CANCUN -->
+      <div class="card cards col-12" style="width: 15rem;">
+        <img src="img/tendencia (4).jpg" class="card-img-top img-tendencia" alt="playacancun">
+        <div class="card-body">
+          <h2 class="card-title">CANCUN</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="card-text precio">600 USD</p>
+          <a href="pages/cancun.html" class="btn boton">Detalles</a>
+        </div>
+      </div>
+      <!-- PERU -->
+      <div class="card cards col-12" style="width: 15rem;">
+        <img src="img/tendencia (5).jpg" class="card-img-top img-tendencia" alt="machu pichu">
+        <div class="card-body">
+          <h2 class="card-title">PERU</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="card-text precio">400 USD</p>
+          <a href="pages/peru.html" class="btn boton">Detalles</a>
+        </div>
+      </div>
+      <!-- BARILOCHE -->
+      <div class="card cards col-12" style="width: 15rem;">
+        <img src="img/tendencia (6).jpg" class="card-img-top img-tendencia" alt="lago">
+        <div class="card-body">
+          <h2 class="card-title">BARILOCHE</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="card-text precio">350 USD</p>
+          <a href="pages/bariloche.html" class="btn boton">Detalles</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Fin Viaje de TENDENCIA -->
+  <!-- COMO VIAJAMOS -->
+  <section class="container-fluid section-viajes imagenes">
+    <div class="d-flex row">
+      <div class="d-flex justify-content-center col-12">
+        <div class="d-flex justify-content-center flex-column align-items-center">
+        <h2>COMO VIAJAMOS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, perferendis odio cumque id atque pariatur non omnis itaque. Blanditiis iure repellat molestiae id, cum eveniet animi beatae laborum delectus eos.</p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center col-12">
+        <img src="img/avion.jpg" alt="avion" class="tipo-viaje rounded">
+        <img src="img/crucero.jpg" alt="crucero" class="tipo-viaje rounded">
+      </div>
+    </div>
+  </section>
+  <!-- FIN COMO VIAJAMOS -->
+  <!-- Footer -->
+  <footer>
+    <div class="d-flex flex-column align-items-center">
+      <h2 class="footer-text">Empresa de Viajes y Turismo</h2>
+      <h3 class="footer-text">Copyright 2023</h3>
+    </div>
+  </footer>
+  <!-- Fin Footer -->
+  <!-- Link Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
