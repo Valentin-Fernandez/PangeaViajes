@@ -1,0 +1,20 @@
+.pack{
+    background-color: nth($colors,1);
+}
+.precio{
+    font-size: 20px;
+}
+.img-tendencia{
+    height: 20rem;
+}
+.section-tendencia{
+    background-color: nth($colors, 3 );
+    .text-tendencia{
+        padding-top: 1rem;
+        color: nth($colors, 1 );
+        #text-celeste{
+            margin-left: 1rem;
+            color: nth($colors , 2 );
+        }
+    }
+}
