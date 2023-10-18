@@ -111,4 +111,19 @@ body {
   width: 100%;
 }
 
+.img-quiensomos {
+  width: 100%;
+}
+
+.quiensomos {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #30BCED;
+}
+.quiensomos img {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 25%;
+}
+
 /*# sourceMappingURL=style.css.map */

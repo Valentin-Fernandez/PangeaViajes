@@ -1,0 +1,13 @@
+.img-quiensomos{
+    width: 100%;
+}
+.quiensomos{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: nth($colors, 2 );
+    img{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 25%;
+    }
+}
