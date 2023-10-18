@@ -126,4 +126,28 @@ body {
   width: 25%;
 }
 
+.detalles-viaje {
+  margin-top: 1rem;
+}
+.detalles-viaje h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.detalles-viaje h2 {
+  margin-top: 1rem;
+  font-size: 18px;
+}
+.detalles-viaje p {
+  font-size: 18px;
+}
+.detalles-viaje .punto {
+  content: 50px;
+  margin: 0;
+  padding: 0;
+}
+.detalles-viaje .etapas {
+  font-weight: bold;
+  color: #30BCED;
+}
+
 /*# sourceMappingURL=style.css.map */
