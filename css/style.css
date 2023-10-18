@@ -65,4 +65,50 @@ header {
   margin: 1rem;
 }
 
+.boton {
+  background-color: #30BCED;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.caja-contacto {
+  margin: 1rem;
+}
+
+.contacto-img {
+  width: 30px;
+  height: 30px;
+}
+
+.correo-contacto {
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+}
+.correo-contacto img {
+  margin-left: 1rem;
+}
+.correo-contacto h2 {
+  margin-left: 1rem;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+.correo-contacto div {
+  margin-top: 1rem;
+}
+
+.contacto-img-especial {
+  width: 23px;
+  height: 23px;
+}
+
+.especial-footer {
+  padding-top: 1rem;
+  background-color: #FFFAFF;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

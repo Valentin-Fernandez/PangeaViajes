@@ -1,0 +1,37 @@
+body{
+    overflow-x: hidden;
+}
+.caja-contacto{
+    margin: 1rem;
+}
+.contacto-img{
+    width: 30px;
+    height: 30px;
+}
+.correo-contacto{
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    img{
+        margin-left: 1rem;
+    }
+    h2{
+        margin-left: 1rem;
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    div{
+        margin-top: 1rem;
+    }
+}
+
+.contacto-img-especial{
+    width: 23px;
+    height: 23px;
+}
+.especial-footer{
+    padding-top: 1rem;
+    background-color: nth($colors,1 );
+    position: absolute;
+    bottom: 0;
+    width: 100%;  
+}

@@ -1,3 +1,6 @@
+.cards{
+    margin: 30px;
+}
 .pack{
     background-color: nth($colors,1);
 }
@@ -17,4 +20,18 @@
             color: nth($colors , 2 );
         }
     }
+}
+.tipo-viaje{
+    width: 30%;
+}
+.section-viajes{
+    background-color: nth($colors, 2 );
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    img{
+        margin: 1rem;
+    }
+}
+.boton{
+    background-color: nth($colors, 2);
 }
