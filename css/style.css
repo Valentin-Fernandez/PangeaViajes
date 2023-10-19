@@ -128,11 +128,6 @@ body {
   width: 100%;
 }
 
-body {
-  overflow-x: hidden;
-  max-width: 100%;
-}
-
 .img-quiensomos {
   width: 100%;
   padding: 0;
