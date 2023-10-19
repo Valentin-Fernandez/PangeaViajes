@@ -14,6 +14,18 @@
   font-weight: bold;
 }
 
+.animacion, .transition {
+  transition: height 2s, background-color 2s;
+}
+.animacion:hover, .transition:hover {
+  background-color: #30BCED;
+}
+.animacion:hover .boton, .transition:hover .boton {
+  transition: background-color 2s, color 2s;
+  background-color: #303036;
+  color: white;
+}
+
 footer {
   padding-top: 1rem;
   background-color: #FFFAFF;

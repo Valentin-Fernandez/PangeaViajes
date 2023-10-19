@@ -2,3 +2,15 @@
     font-size: 25px;
     font-weight: bold;
 }
+.animacion{
+    transition: height 2s, background-color 2s;
+    &:hover{
+        background-color: nth($colors, 2);
+        .boton{
+            transition: background-color 2s, color 2s;
+            background-color: nth($colors , 3);
+            color: white; 
+            
+        }
+    }
+}

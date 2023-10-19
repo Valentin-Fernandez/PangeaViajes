@@ -1,3 +1,6 @@
 .foto-viaje{
     width: 100%;
 }
+.transition{
+    @extend .animacion;
+}

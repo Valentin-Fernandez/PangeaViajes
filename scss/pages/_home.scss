@@ -1,6 +1,10 @@
 .cards{
     margin: 30px;
 }
+.transition{
+    @extend .animacion;
+}
+
 .pack{
     background-color: nth($colors,1);
 }
@@ -33,5 +37,5 @@
     }
 }
 .boton{
-    background-color: nth($colors, 2);
+    background-color: nth($colors, 2);  
 }
