@@ -1,24 +1,23 @@
+
 .detalles-viaje{
     margin-top: 1rem;
     h1{
-        font-size: 25px;
-        font-weight: bold;
+        @extend .encabezado;
     }
     h2{
+        @extend .encabezado;
         margin-top: 1rem;
         font-size: 18px;
     }
+    .punto{
+        color: nth($colors, 2)
+    }   
     p{
         font-size: 18px;
+        .etapas{
+            font-weight: bold;
+            color: nth($colors, 2)
+        }
     }
-    .punto{
-        content: 50px;
-        margin: 0;
-        padding: 0;
-    }
-    .etapas{
-        font-weight: bold;
-        color: nth($colors, 2)
-    }
-
+    
 }

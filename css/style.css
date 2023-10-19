@@ -9,6 +9,11 @@
   padding-left: 0;
 }
 
+.encabezado, .detalles-viaje h2, .detalles-viaje h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 footer {
   padding-top: 1rem;
   background-color: #FFFAFF;
@@ -129,25 +134,23 @@ body {
 .detalles-viaje {
   margin-top: 1rem;
 }
-.detalles-viaje h1 {
-  font-size: 25px;
-  font-weight: bold;
-}
 .detalles-viaje h2 {
   margin-top: 1rem;
   font-size: 18px;
 }
+.detalles-viaje .punto {
+  color: #30BCED;
+}
 .detalles-viaje p {
   font-size: 18px;
 }
-.detalles-viaje .punto {
-  content: 50px;
-  margin: 0;
-  padding: 0;
-}
-.detalles-viaje .etapas {
+.detalles-viaje p .etapas {
   font-weight: bold;
   color: #30BCED;
+}
+
+.foto-viaje {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
