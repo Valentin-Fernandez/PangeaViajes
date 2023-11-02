@@ -149,6 +149,9 @@ body {
   padding-right: 1rem;
   width: 25%;
 }
+.quiensomos .text-aboutus {
+  text-transform: uppercase;
+}
 
 .text-p {
   padding: 1rem;
