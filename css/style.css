@@ -128,6 +128,11 @@ body {
   width: 100%;
 }
 
+.text-contact {
+  padding-top: 1rem;
+  text-transform: uppercase;
+}
+
 .img-quiensomos {
   width: 100%;
   padding: 0;
